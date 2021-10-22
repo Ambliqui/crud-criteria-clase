@@ -1,0 +1,26 @@
+form{
+    display: grid;
+    justify-content: center;
+}
+
+.dato{
+    width: 40%;
+    float: right;
+}
+
+#botones{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#botones input{
+    width: 80%;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+#error{
+    margin: 10px;
+    color: red;
+    font-weight: bold;
+}

@@ -1,0 +1,34 @@
+
+
+#isntfiltros{
+    background-color: red;
+}
+
+#isfiltros{
+    background-color: green;
+}
+
+document,*{
+    text-align: center;
+}
+
+.editarBorrar{
+    width: 30px;
+    height: 30px;
+    
+}
+
+.editarBorrar img{
+    height: 30px;
+}
+
+pre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#datos div{
+    width: 50%;
+    margin:0 auto;
+}
