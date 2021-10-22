@@ -1,0 +1,20 @@
+<%-- Implementacion de los dos tipos de filtros que he implementado --%>
+<%@ page pageEncoding="UTF-8" %>
+<form method="GET" action="FiltroNombreServlet">
+    Ordenar por nombre<br>
+    <input type="radio" id="name_asc" name="orden_nombre" value="name_asc">
+    <label for="name_asc">Ascendente</label>
+    <input type="radio" id="name_desc" name="orden_nombre" value="name_desc">
+    <label for="name_desc">Descendente</label>
+    <input type="submit" value="Filtrar Nombre">
+</form>
+<form method="GET" action="FiltroSalarioServlet">
+    Filtrar por salario<br>
+    <label for="salario_min">Mínimo</label>
+    <input type="number" id="salario_min" name="salario_min" step="100" value="0">
+    <label for="salario_max">Máximo</label>
+    <input type="number" id="salario_max" name="salario_max" step="100" value="0">
+    <input type="submit" value="Filtrar Salario"><br>
+    Deje el campo maximo vacio o en 0 para buscar solo por el minimo
+</form>
+${errorMessage}
