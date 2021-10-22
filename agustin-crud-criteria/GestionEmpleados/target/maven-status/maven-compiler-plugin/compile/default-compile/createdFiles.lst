@@ -1,0 +1,13 @@
+com\arelance\empresa\gestionempleados\controlador\PreAltaServlet.class
+com\arelance\empresa\gestionempleados\modelo\EmpleadoFacadeLocal.class
+com\arelance\empresa\gestionempleados\resources\JavaEE8Resource.class
+com\arelance\empresa\gestionempleados\controlador\PreIndexServlet.class
+com\arelance\empresa\gestionempleados\JAXRSConfiguration.class
+com\arelance\empresa\gestionempleados\modelo\EmpleadoFacade.class
+com\arelance\empresa\gestionempleados\controlador\PostDeleteServlet.class
+com\arelance\empresa\gestionempleados\domain\Empleado.class
+com\arelance\empresa\gestionempleados\modelo\AbstractFacade.class
+com\arelance\empresa\gestionempleados\controlador\PostAltaServlet.class
+com\arelance\empresa\gestionempleados\controlador\PostUpdateServlet.class
+com\arelance\empresa\gestionempleados\controlador\PreUpdateServlet.class
+com\arelance\empresa\gestionempleados\controlador\PostOrberByServlet.class
