@@ -1,0 +1,15 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<h1>REGISTRO</h1>
+
+<br/>
+<label >nombre</label><br/>
+<input type="text" id="nombre" name="nombre" >
+<br/>
+<label >apellidos</label><br/>
+<input type="text" id="apellidos" name="apellidos">
+<br/>  
+<label >salario</label><br/>
+<input type="text" id="salario" name="salario">
+<br/>
+
