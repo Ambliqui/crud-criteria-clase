@@ -1,0 +1,10 @@
+header{
+    display: grid;
+    text-align: center;
+    justify-items: center;
+}
+
+#logo{
+    width: 200px;
+    float: left;
+}

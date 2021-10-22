@@ -1,0 +1,28 @@
+Informe Proyecto Gestión Empleados
+
+Inicio: 18/10/2021
+
+Fecha del Informe: 22/10/2021
+
+Tareas Finalizadas:
+	- Base de Datos
+	- CRUD Básico
+	- Búsqueda filtrada con criterios múltiples
+
+Tareas en proceso:
+	
+
+Tareas pendientes:
+	- Añadir orden opcional en las busquedas
+	- Introducir una busqueda con GroupBy
+	- Introducir una busqueda con Having
+
+Puntos positivos del proyecto:
+	-
+	-
+	-
+
+Puntos negativos del proyecto:
+	-El FrontEnd es mejorable
+	-Pendiente revisar DRY
+	-
