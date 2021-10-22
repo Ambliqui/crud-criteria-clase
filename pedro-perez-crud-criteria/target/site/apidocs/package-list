@@ -1,0 +1,10 @@
+com.arelance.dao
+com.arelance.dao.exceptions
+com.arelance.domain
+com.arelance.enums
+com.arelance.filter
+com.arelance.filter.webfilter
+com.arelance.service
+com.arelance.service.qualifiers
+com.arelance.servlets
+com.arelance.servlets.qualifiers
