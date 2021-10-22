@@ -1,0 +1,13 @@
+com\arelance\a_trolmartesthurnder\servlet\PreEliminar.class
+com\arelance\a_trolmartesthurnder\entity\Empleado.class
+com\arelance\a_trolmartesthurnder\servlet\PostEliminar.class
+com\arelance\a_trolmartesthurnder\facade\AbstractFacade.class
+com\arelance\a_trolmartesthurnder\servlet\PostModificar.class
+com\arelance\a_trolmartesthurnder\servlet\errorVarios.class
+com\arelance\a_trolmartesthurnder\servlet\PostInsertar.class
+com\arelance\a_trolmartesthurnder\JAXRSConfiguration.class
+com\arelance\a_trolmartesthurnder\servlet\PostIndex.class
+com\arelance\a_trolmartesthurnder\facade\EmpleadoFacade.class
+com\arelance\a_trolmartesthurnder\facade\EmpleadoFacadeLocal.class
+com\arelance\a_trolmartesthurnder\servlet\PreIndex.class
+com\arelance\a_trolmartesthurnder\servlet\PreModificar.class
