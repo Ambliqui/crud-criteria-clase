@@ -35,8 +35,11 @@ public class PostIndexServlet extends HttpServlet {
      */
     @Inject
     private EmpleadoFacadeLocal empleadoFacadeLocal;
+    
+    //TODO: Te creas los servicios y no los llamas
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+            //TODO: No tienes en cuenta el caso de no estar relleno el orden
             if (request.getParameter("order").equals("asc")) {
                 List<Empleado> e = empleadoFacadeLocal.ascOrder();
                 request.setAttribute("lista", e);

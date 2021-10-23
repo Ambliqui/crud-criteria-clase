@@ -3,7 +3,8 @@
     Created on : 20-oct-2021, 12:17:23
     Author     : usuario
 --%>
-
+<%-- TODO: Mirar comentarios de delete.jsp --%>
+<%-- No cumple el caso de uso, tiene que estar todo en un mismo formulario --%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -15,6 +16,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <%-- Los estilos van en un archivo CSS aparte --%>
         <style>
             fieldset {
                 display: block;

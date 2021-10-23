@@ -17,6 +17,8 @@ import javax.persistence.criteria.Root;
  *
  * @author usuario
  */
+
+//TODO: no usas nunca la fachada
 public abstract class AbstractFacade<T> {
 
     private Class<T> entityClass;

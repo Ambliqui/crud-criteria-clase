@@ -13,6 +13,8 @@ import javax.ejb.Local;
  *
  * @author Gabri
  */
+
+//TODO esta interfaz ya la tienes creada, sobra
 @Local
 public interface EmpleadoDAO {
 

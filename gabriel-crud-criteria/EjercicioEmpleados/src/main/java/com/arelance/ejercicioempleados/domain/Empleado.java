@@ -106,6 +106,7 @@ public class Empleado implements Serializable {
         return hash;
     }
 
+    //TODO: No tienes terminado el equal
     @Override
     public boolean equals(Object object) {
         // TODO: Warning - this method won't work in the case the id fields are not set

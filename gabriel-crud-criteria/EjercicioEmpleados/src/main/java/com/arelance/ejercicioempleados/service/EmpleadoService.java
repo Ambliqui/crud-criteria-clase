@@ -13,6 +13,8 @@ import javax.ejb.Local;
  *
  * @author Gabri
  */
+
+//TODO: Esta interfaz no la usas en ningun momento
 @Local
 public interface EmpleadoService {
     

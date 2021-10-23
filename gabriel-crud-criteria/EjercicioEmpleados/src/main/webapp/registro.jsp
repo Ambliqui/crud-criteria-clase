@@ -3,10 +3,13 @@
     Created on : 21-oct-2021, 22:57:55
     Author     : Gabri
 --%>
-
+<%-- TODO: Mirar comentarios de delete.jsp --%>
+<%-- TODO: No cumple el caso de uso, tiene que estar todo en un mismo formulario --%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
+    <%-- TODO: Faltan meta en el HEAD --%>
+    <%-- TODO: Esto va en un include para que no sea codigo repetido --%>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Lista empleados</title>
@@ -20,7 +23,8 @@
     </head>
     <body>
         <div class="jumbotron">
-            <h1 class="text-center">Lista de Empleados</h1>      
+            <h1 class="text-center">Lista de Empleados</h1>
+            <%-- TODO: Falta de ortografia --%>
             <p class = "text-center">Registro de los empleados de la empresa FullStark</p>
         </div>
         <div class="container mt-3">
@@ -46,9 +50,12 @@
                  <a href="./PreIndexServlet" role="button">Volver</a>
             </form>
         </div>
+        <%-- TODO: Esto va en un include para que no sea codigo repetido --%>
         <footer class="bg-light text-center text-white">
+            <%-- TODO: Los estilos para el CSS no para el HTML --%>
             <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
                 © 2021
+                <%-- TODO: Mas faltas de ortografia --%>
                 <a class="text-white">FullStark</a>
             </div>
         </footer>

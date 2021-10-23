@@ -9,6 +9,8 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
+    <%-- TODO: Faltan meta en el HEAD --%>
+    <%-- TODO: Esto va en un include para que no sea codigo repetido --%>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Lista empleados</title>
@@ -40,7 +42,8 @@
                     </tr>
                 </thead>
 
-
+                <%-- TODO: Hacer con JSTL y EL, estas variables las tienes que traer desde el Servlet 
+                    No entiendo porque lo haces en las paginas anteriores y no aqui--%>
                 <%
                     List<Empleado> lista = (List<Empleado>) request.getAttribute("lista");
 
@@ -62,6 +65,8 @@
 
         <h3>Ordenación por nombre</h3>
         <form action="PostIndexServlet" method="GET">
+            <%-- TODO: La etiqueta for no está bien implementada --%>
+            <%-- TODO: La ordenacion deberia poder ser por cualquier campo, no esta ni implementado --%>
             <label for ="asc">Ascendente</label>
             <input type="radio" id="order"  name="order" value="asc" class="form-check-label">
             <label for ="desc">Descendente</label>
@@ -69,11 +74,13 @@
             <input type="submit" name="action" value="Filtrar" class="btn btn-secondary">
         </form>
         <h3>Filtro por salario</h3>
+        <%-- TODO: El GET es el valor por defecto en del formulario --%>
         <form action ="FiltroSalarioServlet" method ="GET">
             <label for= "salario">Salario: </label>
             <input type="number" id="salario"  name="salario">
             <input type ="submit" name="action" value ="Filtrar" class="btn-secondary">
         </form>
+        <%-- TODO: Esto va en un include para que no sea codigo repetido --%>
         <footer class="bg-light text-center text-white">
             <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
                 © 2021

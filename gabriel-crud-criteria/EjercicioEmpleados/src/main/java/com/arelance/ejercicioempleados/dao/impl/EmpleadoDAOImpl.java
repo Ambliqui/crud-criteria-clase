@@ -22,6 +22,8 @@ import javax.persistence.criteria.Root;
  *
  * @author Gabri
  */
+
+//TODO: No se utiliza en ningun momento esta clase... sin sentido
 @Stateless
 public class EmpleadoDAOImpl implements EmpleadoDAO {
 
@@ -52,6 +54,8 @@ public class EmpleadoDAOImpl implements EmpleadoDAO {
         criteriaUpdate.set("apellido_empleado", empleado.getApellidoEmpleado());
         criteriaUpdate.set("salario", empleado.getSalario());
         criteriaUpdate.where(criteriaBuilder.equal(root.get("idempleado"), empleado.getIdempleados()));
+
+        //TODO: en la vida te va a funcionar esto, ya es transacional
         em.getTransaction().begin();
         em.createQuery(criteriaUpdate).executeUpdate();
         em.getTransaction().commit();
@@ -63,6 +67,7 @@ public class EmpleadoDAOImpl implements EmpleadoDAO {
         Root<Empleado> root = criteriaDelete.from(Empleado.class);
         criteriaDelete.where(criteriaBuilder.greaterThan(root.get("nombre_empleado"), empleado.getNombreEmpleado()));
 
+        //TODO: en la vida te va a funcionar esto, ya es transacional
         em.getTransaction().begin();
         em.createQuery(criteriaDelete).executeUpdate();
         em.getTransaction().commit();

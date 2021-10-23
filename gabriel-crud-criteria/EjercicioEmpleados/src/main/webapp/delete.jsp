@@ -3,7 +3,8 @@
     Created on : 20-oct-2021, 13:25:42
     Author     : usuario
 --%>
-
+<%-- TODO: No cumple el caso de uso, tiene que estar todo en un mismo formulario --%>
+<%-- TODO: No tienes los mismo elementos estructurales del resto de las paginas, el footer salio por patas? --%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

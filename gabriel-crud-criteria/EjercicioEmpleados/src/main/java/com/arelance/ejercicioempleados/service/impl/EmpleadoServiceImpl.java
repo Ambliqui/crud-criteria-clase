@@ -15,10 +15,13 @@ import javax.inject.Inject;
  *
  * @author Gabri
  */
+
+//TODO: No utilizas la implementacion para nada
 public class EmpleadoServiceImpl implements EmpleadoService {
 
-        @Inject
-        private EmpleadoDAO empleadoDAO;
+    @Inject
+    private EmpleadoDAO empleadoDAO;
+
     @Override
     public List<Empleado> ListarEmpleados() {
         return empleadoDAO.ListarEmpleados();
@@ -26,7 +29,7 @@ public class EmpleadoServiceImpl implements EmpleadoService {
 
     @Override
     public void createEmpleado(Empleado empleado) {
-       empleadoDAO.createEmpleado(empleado);
+        empleadoDAO.createEmpleado(empleado);
     }
 
     @Override
@@ -38,5 +41,5 @@ public class EmpleadoServiceImpl implements EmpleadoService {
     public void deleteEmpleado(Empleado empleado) {
         empleadoDAO.deleteEmpleado(empleado);
     }
-    
+
 }
